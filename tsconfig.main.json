@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "ES5",
+        "module": "CommonJS",
+        "rootDir": "src",
+        "outDir": "app/dist",
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/main/**/*.ts"],
+    "exclude": ["node_modules/"]
+}

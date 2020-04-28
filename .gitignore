@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+thumbs.db
+.idea/
+yarn-error.log
+yarn.lock
+app/dist
+app/web_modules

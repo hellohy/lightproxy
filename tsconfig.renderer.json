@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "rootDir": "src",
+        "outDir": "app/dist",
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "app://web_modules/*.js": ["node_modules/@types/*", "node_modules/*", "web_modules/*.js"]
+        }
+    },
+    "include": ["src/renderer/**/*.ts", "src/renderer/**/*.tsx"],
+    "exclude": ["node_modules/"]
+}
