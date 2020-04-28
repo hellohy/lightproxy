@@ -16,7 +16,8 @@
         "clean:dist": "npx rimraf app/dist",
         "clean:web_modules": "npx rimraf app/web_modules",
         "copy:web_modules": "cp -r web_modules app/web_modules",
-        "syncversion": "node scripts/sync-version.js"
+        "syncversion": "node scripts/sync-version.js",
+        "postinstall": "npx snowpack"
     },
     "devDependencies": {
         "@types/react": "^16.9.34",
